@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: Gilroy-Bold;
 }
 
 header {
     background: white;
     padding: 15px 0;
-    border-bottom: 2px solid #f1f1f1;
+    box-shadow: #FFFFFF;
     position: fixed;
     width: 100%;
     top: 0;
@@ -81,19 +81,11 @@ nav a:hover {
 .login, .get {
     padding: 8px 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
     font-size: 14px;
 }
-.login:hover{
-    background-color: #5978FF;
-    color: #f1f1f1;
-}
-.get:hover{
-    background-color: darkblue;
-}
-
 .login {
     border: 1px solid #5978FF;
     background: white;
