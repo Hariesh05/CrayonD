@@ -30,6 +30,13 @@ header {
     font-size: 24px;
     font-weight: bold;
     color: black;
+    font-family: Poppins;
+font-weight: 600;
+font-size: 18px;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+
 }
 
 .logo img {
@@ -49,11 +56,17 @@ nav a {
     font-weight: 600;
     font-size: 16px;
     transition: color 0.3s;
+    font-family: Poppins;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+
 }
 
 .hm {
     color: orange;
-    text-decoration: underline;
 }
 
 nav a:hover {
@@ -226,8 +239,16 @@ letter-spacing: 0%;
 }
 .head_advisors{
     text-align: center;
-    margin-top: 5cm;
+    margin-top: 4cm;
     font-size: x-large;
+    font-family: Gilroy-Bold;
+font-weight: 400;
+font-size: 28px;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+
 }
 .advisors{
     margin-top: 1cm;
@@ -285,6 +306,14 @@ gap: 8px;
 background-color: #5978FF;
 color: white;
 border-color: white;
+border: none;
+cursor: pointer;
+z-index: 100;
+transition:transform 0.3s ease;
+}
+.bo:hover{
+    color: #000;
+    transform: scale3d(1.2, 1.2, 1);
 }
 .off{
     font-family: Gilroy-Medium;
@@ -293,12 +322,20 @@ font-size: 12px;
 line-height: 16px;
 letter-spacing: 0%;
 text-decoration: line-through;
-
 }
 .li{
+    position: relative;
     text-align: center;
     margin-top: 1cm;
     font-size: large;
+    z-index: 100;
+}
+.li a{
+    color: #5978FF;
+    text-decoration: none;
+}
+.li:hover a{
+    color: darkblue;
 }
 .step{
     text-align: center;
@@ -334,28 +371,49 @@ letter-spacing: 0%;
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     margin-top: 1cm;
+    padding: 1.7cm;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 .rev1{
     background-color:#F0F9FA;
-    padding: 1.8cm ;
+    padding-top: 2cm ;
 
 }
 .rev2{
     background-color: #FFF5EC;
-    padding: 1.7cm;
+    padding-top: 2cm;
 }
 .rev3{
     background-color: #ECF1FB;
-    padding: 1.7cm;
+   padding-top: 2cm;
 }
 .log{
     display: flex;
     position:absolute ;
-    bottom:7.5cm;
+    bottom:8.5cm;
     width: 100;
 height: 100;
 left: 100px;
-
+}
+.review p{
+    font-family: Gilroy-Medium;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+    margin-bottom: 1cm;
+    padding: 1%;
+}
+.review h3{
+    font-family: Gilroy-SemiBold;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0%;
+vertical-align: middle;
+    margin-bottom: 0.5cm;
 }
 .service{
     margin-top: 5cm;
@@ -464,6 +522,17 @@ letter-spacing: 0%;
     display: flex;
     justify-content: center;
 }
-
+.bg{
+    position: absolute;
+    z-index: 2;
+}
+.grid{
+    position: absolute;
+    z-index: 1;
+   
+}
+.grid img{
+    width: 100%;
+}
 
 
