@@ -87,7 +87,7 @@ nav a:hover {
     font-size: 14px;
 }
 .login:hover{
-    background-color: blue;
+    background-color: #5978FF;
     color: #f1f1f1;
 }
 .get:hover{
@@ -95,13 +95,13 @@ nav a:hover {
 }
 
 .login {
-    border: 1px solid blue;
+    border: 1px solid #5978FF;
     background: white;
-    color: blue;
+    color: #5978FF;
 }
 
 .get {
-    background: blue;
+    background: #5978FF;
     color: white;
 }
 
@@ -174,7 +174,7 @@ letter-spacing: 0%;
 }
 
 .explore {
-    background: blue;
+    background: #5978FF;
     color: white;
     padding: 10px 20px;
     font-size: 16px;
@@ -206,13 +206,13 @@ letter-spacing: 0%;
 .main2 h3{
     text-align: center;
     font-family: Gilroy-Bold;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 37px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-top: 3cm;
-    margin-bottom: 1cm;
+font-weight: 400;
+font-size: 28px;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+
 }
 .yc{
     display: flex;
@@ -248,17 +248,19 @@ line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
 text-transform: capitalize;
-
+padding-top: 150px;
 }
 .advisors{
     margin-top: 1cm;
     display: flex;
     justify-content: center;
     padding: 50px;
-    
+}
+.tot{
+    background-color:#F7F9FF;
 }
 .adv1,.adv2,.adv3{
-    background:#F5F5F5;
+    background:#FFFFFF;
     border-radius: 12px;
     border: 4px solid #ccc;
     border-radius: 10px; 
@@ -266,6 +268,7 @@ text-transform: capitalize;
     border-color: white;
     gap: 0.5cm;
     margin-left: 0.5cm;
+    border: 1px solid #F5F5F5
     
 }
 .special{
@@ -292,11 +295,11 @@ h3{
     margin-bottom: 1cm;
 }
 .bo{
+    position: relative;
     margin-left: 3cm;
     width: 80;
 height: 40;
-top: 10px;
-left: 204px;
+top: 2px;
 border-radius: 10px;
 padding-top: 10px;
 padding-right: 20px;
@@ -311,6 +314,10 @@ cursor: pointer;
 z-index: 100;
 transition:transform 0.3s ease;
 }
+.bo button{
+    z-index: 100;
+    cursor: pointer;
+} 
 .bo:hover{
     color: #000;
     transform: scale3d(1.2, 1.2, 1);
@@ -326,9 +333,10 @@ text-decoration: line-through;
 .li{
     position: relative;
     text-align: center;
-    margin-top: 1cm;
     font-size: large;
     z-index: 100;
+    padding-bottom: 50px;
+
 }
 .li a{
     color: #5978FF;
@@ -419,7 +427,6 @@ vertical-align: middle;
     margin-top: 5cm;
     width: 100%;
     min-height: 700px;
-   background-color: #F7F9FF; 
    position: relative;
    padding: 60px 15%;
     text-align: center;
@@ -454,15 +461,16 @@ font-weight: 400;
 font-size: 20px;
 line-height: 24px;
 letter-spacing: 0%;
-font-weight: bold;
+vertical-align: middle;
+color: #121214;
+margin-bottom: 10px;
 }
 .service p{
     font-family: Gilroy-Medium;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0%;
-
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
 }
 .main_step {
     display: flex;
@@ -498,9 +506,12 @@ letter-spacing: 0%;
 }
 
 .step1 h4 {
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: #000;
+    font-family: Gilroy-SemiBold;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0%;
+vertical-align: middle;
     margin-bottom: 5px;
 }
 
@@ -511,6 +522,12 @@ letter-spacing: 0%;
     padding-top: 10px;
     padding-bottom: 10px;
     display: inline-block;
+    font-family: Gilroy-Medium;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+
 }
 
 .stepspc img {
